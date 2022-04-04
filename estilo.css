@@ -1,0 +1,226 @@
+body{
+
+    margin:0;
+    background:black;
+    font-family: monospace;
+}
+
+
+
+.header{
+
+    border-bottom: 3px solid aqua;
+    
+}
+
+.container{
+
+    width:80%;
+    margin:auto;
+    display: flex;
+}
+
+.header .container{
+
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header ul #aqui {
+
+    font-weight:800;
+}
+.titulo {
+
+    color:aqua;
+    width: fit-content;
+    font-weight: 500;
+}
+
+.navBar {
+
+    color:white;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width:300px;
+    padding:0;
+    align-items: center;
+}
+
+/*Fim do Cabeçalho*/
+
+/*Começo do Banner*/
+
+.banner{
+
+    background-image:url('https://raw.githubusercontent.com/julialima1999/Aula_HTML_CSS/main/imgs/bg-jelly-fish-para-home.png');
+    height: 500px;
+    color:white;
+    display: flex;
+}
+
+.banner .container p span {
+
+    font-weight:1000;
+
+}
+
+.banner .container{
+
+    font-size: 36px;
+    justify-content: center;
+
+}
+
+/* Fim do Banner */
+
+/* Começo do Social */
+.social{
+
+    background-color:white;
+    display:flex;
+
+}
+
+.social .container .boxes .box img{
+    
+    width:150px;
+
+}
+
+.social .container .boxes {
+
+    display:flex;
+    
+}
+
+.box{
+
+    margin-top:50px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+ /* começo do footer */
+.footer {
+    background-color: #4169E1;
+    height: 150px;
+    color: whitesmoke;
+    display: flex;
+    font-size: 15px;
+}
+
+.footer .container {
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.banner .container .card {
+    background-color: #E6E6FA;
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: #4B0082;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin: auto;
+}
+
+.card h1 {
+    font-size: 30px;
+}
+
+.card h4 {
+    font-size: 15px;
+}
+
+.card input {
+    border-color: #4B0082;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.card button {
+    background-color: #4B0082;
+    height: 50px;
+    width: 100px;
+    font: 700 12px monospace;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card .ent {
+    margin-top: 25px;
+}
+
+.card .cad{
+
+}
+
+.card h3 {
+    font-size: 15px;
+}
+
+.banner .container .cardCad {
+    background-color: #E6E6FA;
+    height: 470px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: #4B0082;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin: auto;
+}
+
+.cardCad h1 {
+    font-size: 30px;
+}
+
+.cardCad h4 {
+    font-size: 15px;
+}
+
+.cardCad input {
+    border-color: #4B0082;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.cardCad button {
+    background-color: #4B0082;
+    height: 30px;
+    width: 90px;
+    font: 700 12px monospace;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cardCad .ent {
+    margin-top: 25px;
+}
+
+.cardCad .cad{
+
+}
+
+.cardCad h3 {
+    font-size: 15px;
+}
